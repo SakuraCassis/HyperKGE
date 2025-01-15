@@ -26,7 +26,13 @@ pip install -r requirements.txt
 ```
 
 ---
-
+## **Setup**
+```bash
+cd HyperKGE
+mkdir History
+mkdir Model
+```
+---
 ## **Data Processing**
 
 Prepare the data by processing the orbital threat table and generating the adjacency matrix. Use the following command:
@@ -69,13 +75,6 @@ python -u main.py \
 
 The training logs are saved to `train.log`. Evaluation results and model checkpoints will be saved in the designated output directory.
 
----
-
-## **Future Work**
-
-- Extend the knowledge graph to include additional node types such as ground stations.
-- Experiment with different hypergraph models and SSL techniques.
-- Integrate real-time orbital data for dynamic analysis.
 
 ---
 
